@@ -2,17 +2,17 @@
 DJANGO Nationalities
 ======================
 
-Forked from https://github.com/nyuhuhuu/django-nationalities
+Forked from https://github.com/kapt/django-nationalities but change to be used with django 1.7
 
 Install
 =======
 
 ::
 
-pip install git+https://github.com/kapt/django-nationalities.git
+pip install git+https://github.com/proteus-tech/django-nationalities.git
 
 
 Setup
 =====
 
-* Add ``south`` and ``django_nationalities`` to your ``INSTALLED_APPS``
+* Add and ``django_nationalities`` to your ``INSTALLED_APPS``

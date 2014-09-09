@@ -108,12 +108,3 @@ class NationalityField(CharField):
         if value is None:
             return None
         return unicode(value)
-
-
-# If south is installed, ensure that NationalityField will be introspected just
-# like a normal CharField.
-try:
-    from south.modelsinspector import add_introspection_rules
-    add_introspection_rules([], ["^django_nationalities\.fields\.NationalityField"])
-except ImportError:
-    pass
