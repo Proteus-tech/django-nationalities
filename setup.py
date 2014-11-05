@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-nationalities',
-    version='0.1.1',
+    version='0.1.2',
     author='Kapt',
     author_email='dev@kapt.mobi',
     packages=find_packages(),
